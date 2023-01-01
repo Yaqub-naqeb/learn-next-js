@@ -1,18 +1,18 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
+
 import Navbar from '../components/Navbar'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div >
-      <Navbar/>
-     <h1 className="text-3xl font-bold underline">
+    <div  >
+     <h1 className="text-3xl font-bold underline ">
       Home page
     </h1>
+    <Link href={'/contactt/contact'}> <a> go to contact</a></Link>
     </div>
   )
 }
