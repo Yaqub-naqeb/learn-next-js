@@ -1,9 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 const Navbar = () => {
   return (
     <nav className='bg-slate-500 flex justify-around py-5 items-center align-middle text-xl font-medium'>
-        <h1>logo.</h1>
+        <Image src='/log.png' width={66} height={77}/>
 
        <ul className='flex gap-10' >
        <Link href={'/'}> <li><a >Home</a></li></Link>
