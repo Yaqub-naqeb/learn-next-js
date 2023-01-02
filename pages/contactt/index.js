@@ -16,3 +16,8 @@ const index = () => {
 }
 
 export default index
+
+// high level language  =====> machine language 01010101110111011101
+               //   Assembly language
+
+
